@@ -137,6 +137,7 @@ public class GameEngine {
     public static void simulateMove(char[][] board, int r, int c) {
         List<int[]> block = findBlock(board, r, c, board[r][c]);
         for(int[] cell : block) board[cell[0]][cell[1]] = '0';
-        applyGravity(board);
+            applyGravity(board);
     }
+    
 }
