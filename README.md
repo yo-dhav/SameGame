@@ -2,6 +2,16 @@
 
 <p>A Java Swing-based desktop application that implements the classic tile-matching puzzle game <strong>SameGame</strong>. This project features a playable solo mode alongside multiple AI strategies that can play the game autonomously or serve as a hint system for the user.</p>
 
+<h2>&#x1F4F8; Screenshots</h2>
+<p align="center">
+  <img src="Screenshot 2026-04-05 113029.png" alt="SameGame Gameplay Board" width="45%">
+  &nbsp;&nbsp;
+  <img src="Screenshot 2026-04-05 113205.png" alt="AI Hint System in Action" width="45%">
+    
+  &nbsp;&nbsp;
+  <img src="Screenshot 2026-04-05 113241.png" alt="AI Hint System in Action" width="45%">
+</p>
+
 <h2>&#x1F3AE; Game Features</h2>
 <ul>
     <li><strong>Interactive GUI</strong>: Built entirely with Java Swing, featuring dynamic board resizing and color rendering.</li>
@@ -50,7 +60,7 @@
     </tbody>
 </table>
 
-<h3>2. Divide and Conquer </h3>
+<h3>2. Divide and Conquer (UKDAC)</h3>
 <p>An alternative to sorting, this approach recursively divides the list of moves to find the mathematical maximum.</p>
 <table>
     <thead>
@@ -62,7 +72,7 @@
     <tbody>
         <tr>
             <td style="text-align: left;"><strong>Class</strong></td>
-            <td style="text-align: left;"><code>DivideConquer.java</code></td>
+            <td style="text-align: left;"><code>UKDAC.java</code></td>
         </tr>
         <tr>
             <td style="text-align: left;"><strong>Algorithm</strong></td>
@@ -91,7 +101,7 @@
     <tbody>
         <tr>
             <td style="text-align: left;"><strong>Class</strong></td>
-            <td style="text-align: left;"><code>BackTracking.java</code></td>
+            <td style="text-align: left;"><code>BackTrackStratergyOPP.java</code></td>
         </tr>
         <tr>
             <td style="text-align: left;"><strong>Algorithm</strong></td>
