@@ -91,8 +91,7 @@
     <tbody>
         <tr>
             <td style="text-align: left;"><strong>Class</strong></td>
-            <td style="text-align: left;"><code>BackTracking
-              .java</code></td>
+            <td style="text-align: left;"><code>BackTracking.java</code></td>
         </tr>
         <tr>
             <td style="text-align: left;"><strong>Algorithm</strong></td>
