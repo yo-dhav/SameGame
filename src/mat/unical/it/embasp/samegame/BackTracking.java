@@ -3,8 +3,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class BackTrackStratergyOPP implements AIStrategy {
-    private static final int MAX_DEPTH = 20;
+public class BackTracking implements AIStrategy {
+    private static final int MAX_DEPTH = 2;
     @Override
     public int[] getMove(char[][] board) {
         List<int[]> moves = GameEngine.getAllMoves(board);
@@ -52,7 +52,7 @@ public class BackTrackStratergyOPP implements AIStrategy {
                 if (beta <= alpha)
                     break; 
             }
-            return maxEval;
+            return maxEval; 
 
         } else {
             int minEval = Integer.MAX_VALUE;

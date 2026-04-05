@@ -93,11 +93,11 @@ public class MainClass {
         ButtonGroup group = new ButtonGroup();
         
         addModeItem(modeMenu, group, "Solo (No AI)", -1);
-        addModeItem(modeMenu, group, "Greedy (Review 1)", 0);
-        addModeItem(modeMenu, group, "DAC - Awaaz (Review 2)", 1);
-        addModeItem(modeMenu, group, "BackTracking (Review 3)", 2);
-        addModeItem(modeMenu, group, "DAC - Uddhav (Review 2)", 3);
-        addModeItem(modeMenu, group, "Beginner (Random)", 4);
+        addModeItem(modeMenu, group, "Greedy", 0);
+        addModeItem(modeMenu, group, "BackTracking ", 1);
+        addModeItem(modeMenu, group, "Divide & Conquer", 2);
+        addModeItem(modeMenu, group, "Beginner (Random)", 3);
+
         menuBar.add(modeMenu);
         // Options Menu
         JMenu optionsMenu = new JMenu("Options"); 
@@ -180,7 +180,7 @@ public class MainClass {
     private static void showHint() {
         if (finished || !isPlayerTurn) return;
         
-        int[] hintMove = aiPlayer.getMove(aiMode, samegame); 
+        int[] hintMove = aiPlayer.getMove(3, samegame); 
         
         if (hintMove != null) {
             char blockColorChar = samegame[hintMove[0]][hintMove[1]];
