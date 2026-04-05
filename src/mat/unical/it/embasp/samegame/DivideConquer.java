@@ -1,7 +1,7 @@
 package mat.unical.it.embasp.samegame;
 import java.util.List;
 
-public class DiveideConquer implements AIStrategy {
+public class DivideConquer implements AIStrategy {
     @Override
     public int[] getMove(char[][] board) {
         List<int[]> moves = GameEngine.getAllMoves(board);
