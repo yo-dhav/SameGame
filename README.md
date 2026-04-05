@@ -4,12 +4,12 @@
 
 <h2>&#x1F4F8; Screenshots</h2>
 <p align="center">
-  <img src="Screenshot 2026-04-05 113029.png" alt="SameGame Gameplay Board" width="45%">
+  <img src="images/Screenshot 2026-04-05 113029.png" alt="SameGame Gameplay Board" width="45%">
   &nbsp;&nbsp;
-  <img src="Screenshot 2026-04-05 113205.png" alt="AI Hint System in Action" width="45%">
+  <img src="images/Screenshot 2026-04-05 113205.png" alt="AI Hint System in Action" width="45%">
     
   &nbsp;&nbsp;
-  <img src="Screenshot 2026-04-05 113241.png" alt="AI Hint System in Action" width="45%">
+  <img src="images/Screenshot 2026-04-05 113241.png" alt="AI Hint System in Action" width="45%">
 </p>
 
 <h2>&#x1F3AE; Game Features</h2>
